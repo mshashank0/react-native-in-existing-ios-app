@@ -1,0 +1,706 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1B3632D9D63D3A1FDA00B424 /* libPods-react-in-native.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F59BE2453657B0B0B585B9CB /* libPods-react-in-native.a */; };
+		942751E126A6E7C000FE456D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 942751E026A6E7C000FE456D /* AppDelegate.swift */; };
+		942751E326A6E7C000FE456D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 942751E226A6E7C000FE456D /* SceneDelegate.swift */; };
+		942751E526A6E7C000FE456D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 942751E426A6E7C000FE456D /* ViewController.swift */; };
+		942751E826A6E7C000FE456D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 942751E626A6E7C000FE456D /* Main.storyboard */; };
+		942751EB26A6E7C000FE456D /* react_in_native.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 942751E926A6E7C000FE456D /* react_in_native.xcdatamodeld */; };
+		942751ED26A6E7C300FE456D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 942751EC26A6E7C300FE456D /* Assets.xcassets */; };
+		942751F026A6E7C300FE456D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 942751EE26A6E7C300FE456D /* LaunchScreen.storyboard */; };
+		942751FB26A6E7C300FE456D /* react_in_nativeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 942751FA26A6E7C300FE456D /* react_in_nativeTests.swift */; };
+		9427520626A6E7C300FE456D /* react_in_nativeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9427520526A6E7C300FE456D /* react_in_nativeUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		942751F726A6E7C300FE456D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 942751D526A6E7C000FE456D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 942751DC26A6E7C000FE456D;
+			remoteInfo = "react-in-native";
+		};
+		9427520226A6E7C300FE456D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 942751D526A6E7C000FE456D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 942751DC26A6E7C000FE456D;
+			remoteInfo = "react-in-native";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5EEDA97D04386862AB09C40B /* Pods-react-in-native.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-react-in-native.debug.xcconfig"; path = "Target Support Files/Pods-react-in-native/Pods-react-in-native.debug.xcconfig"; sourceTree = "<group>"; };
+		942751DD26A6E7C000FE456D /* react-in-native.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "react-in-native.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		942751E026A6E7C000FE456D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		942751E226A6E7C000FE456D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		942751E426A6E7C000FE456D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		942751E726A6E7C000FE456D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		942751EA26A6E7C000FE456D /* react_in_native.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = react_in_native.xcdatamodel; sourceTree = "<group>"; };
+		942751EC26A6E7C300FE456D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		942751EF26A6E7C300FE456D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		942751F126A6E7C300FE456D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		942751F626A6E7C300FE456D /* react-in-nativeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "react-in-nativeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		942751FA26A6E7C300FE456D /* react_in_nativeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = react_in_nativeTests.swift; sourceTree = "<group>"; };
+		942751FC26A6E7C300FE456D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9427520126A6E7C300FE456D /* react-in-nativeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "react-in-nativeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9427520526A6E7C300FE456D /* react_in_nativeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = react_in_nativeUITests.swift; sourceTree = "<group>"; };
+		9427520726A6E7C300FE456D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E9048569843485AF7FF90C43 /* Pods-react-in-native.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-react-in-native.release.xcconfig"; path = "Target Support Files/Pods-react-in-native/Pods-react-in-native.release.xcconfig"; sourceTree = "<group>"; };
+		F59BE2453657B0B0B585B9CB /* libPods-react-in-native.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-react-in-native.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		942751DA26A6E7C000FE456D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B3632D9D63D3A1FDA00B424 /* libPods-react-in-native.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		942751F326A6E7C300FE456D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		942751FE26A6E7C300FE456D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0B97333909E4499D2ECB1B23 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5EEDA97D04386862AB09C40B /* Pods-react-in-native.debug.xcconfig */,
+				E9048569843485AF7FF90C43 /* Pods-react-in-native.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		942751D426A6E7C000FE456D = {
+			isa = PBXGroup;
+			children = (
+				942751DF26A6E7C000FE456D /* react-in-native */,
+				942751F926A6E7C300FE456D /* react-in-nativeTests */,
+				9427520426A6E7C300FE456D /* react-in-nativeUITests */,
+				942751DE26A6E7C000FE456D /* Products */,
+				0B97333909E4499D2ECB1B23 /* Pods */,
+				F3807BD3173B9452C10F84F9 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		942751DE26A6E7C000FE456D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				942751DD26A6E7C000FE456D /* react-in-native.app */,
+				942751F626A6E7C300FE456D /* react-in-nativeTests.xctest */,
+				9427520126A6E7C300FE456D /* react-in-nativeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		942751DF26A6E7C000FE456D /* react-in-native */ = {
+			isa = PBXGroup;
+			children = (
+				942751E026A6E7C000FE456D /* AppDelegate.swift */,
+				942751E226A6E7C000FE456D /* SceneDelegate.swift */,
+				942751E426A6E7C000FE456D /* ViewController.swift */,
+				942751E626A6E7C000FE456D /* Main.storyboard */,
+				942751EC26A6E7C300FE456D /* Assets.xcassets */,
+				942751EE26A6E7C300FE456D /* LaunchScreen.storyboard */,
+				942751F126A6E7C300FE456D /* Info.plist */,
+				942751E926A6E7C000FE456D /* react_in_native.xcdatamodeld */,
+			);
+			path = "react-in-native";
+			sourceTree = "<group>";
+		};
+		942751F926A6E7C300FE456D /* react-in-nativeTests */ = {
+			isa = PBXGroup;
+			children = (
+				942751FA26A6E7C300FE456D /* react_in_nativeTests.swift */,
+				942751FC26A6E7C300FE456D /* Info.plist */,
+			);
+			path = "react-in-nativeTests";
+			sourceTree = "<group>";
+		};
+		9427520426A6E7C300FE456D /* react-in-nativeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9427520526A6E7C300FE456D /* react_in_nativeUITests.swift */,
+				9427520726A6E7C300FE456D /* Info.plist */,
+			);
+			path = "react-in-nativeUITests";
+			sourceTree = "<group>";
+		};
+		F3807BD3173B9452C10F84F9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F59BE2453657B0B0B585B9CB /* libPods-react-in-native.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		942751DC26A6E7C000FE456D /* react-in-native */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9427520A26A6E7C400FE456D /* Build configuration list for PBXNativeTarget "react-in-native" */;
+			buildPhases = (
+				DAC29CED620AAC8FB5FBC0AE /* [CP] Check Pods Manifest.lock */,
+				942751D926A6E7C000FE456D /* Sources */,
+				942751DA26A6E7C000FE456D /* Frameworks */,
+				942751DB26A6E7C000FE456D /* Resources */,
+				6A96F47028B2714BF4982F6C /* [CP] Embed Pods Frameworks */,
+				C1EE2C7F9D8AFD708CCA86E3 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "react-in-native";
+			productName = "react-in-native";
+			productReference = 942751DD26A6E7C000FE456D /* react-in-native.app */;
+			productType = "com.apple.product-type.application";
+		};
+		942751F526A6E7C300FE456D /* react-in-nativeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9427520D26A6E7C400FE456D /* Build configuration list for PBXNativeTarget "react-in-nativeTests" */;
+			buildPhases = (
+				942751F226A6E7C300FE456D /* Sources */,
+				942751F326A6E7C300FE456D /* Frameworks */,
+				942751F426A6E7C300FE456D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				942751F826A6E7C300FE456D /* PBXTargetDependency */,
+			);
+			name = "react-in-nativeTests";
+			productName = "react-in-nativeTests";
+			productReference = 942751F626A6E7C300FE456D /* react-in-nativeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9427520026A6E7C300FE456D /* react-in-nativeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9427521026A6E7C400FE456D /* Build configuration list for PBXNativeTarget "react-in-nativeUITests" */;
+			buildPhases = (
+				942751FD26A6E7C300FE456D /* Sources */,
+				942751FE26A6E7C300FE456D /* Frameworks */,
+				942751FF26A6E7C300FE456D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9427520326A6E7C300FE456D /* PBXTargetDependency */,
+			);
+			name = "react-in-nativeUITests";
+			productName = "react-in-nativeUITests";
+			productReference = 9427520126A6E7C300FE456D /* react-in-nativeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		942751D526A6E7C000FE456D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					942751DC26A6E7C000FE456D = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					942751F526A6E7C300FE456D = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 942751DC26A6E7C000FE456D;
+					};
+					9427520026A6E7C300FE456D = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 942751DC26A6E7C000FE456D;
+					};
+				};
+			};
+			buildConfigurationList = 942751D826A6E7C000FE456D /* Build configuration list for PBXProject "react-in-native" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 942751D426A6E7C000FE456D;
+			productRefGroup = 942751DE26A6E7C000FE456D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				942751DC26A6E7C000FE456D /* react-in-native */,
+				942751F526A6E7C300FE456D /* react-in-nativeTests */,
+				9427520026A6E7C300FE456D /* react-in-nativeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		942751DB26A6E7C000FE456D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				942751F026A6E7C300FE456D /* LaunchScreen.storyboard in Resources */,
+				942751ED26A6E7C300FE456D /* Assets.xcassets in Resources */,
+				942751E826A6E7C000FE456D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		942751F426A6E7C300FE456D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		942751FF26A6E7C300FE456D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6A96F47028B2714BF4982F6C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-react-in-native/Pods-react-in-native-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-react-in-native/Pods-react-in-native-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-react-in-native/Pods-react-in-native-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C1EE2C7F9D8AFD708CCA86E3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-react-in-native/Pods-react-in-native-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-react-in-native/Pods-react-in-native-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-react-in-native/Pods-react-in-native-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DAC29CED620AAC8FB5FBC0AE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-react-in-native-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		942751D926A6E7C000FE456D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				942751E526A6E7C000FE456D /* ViewController.swift in Sources */,
+				942751E126A6E7C000FE456D /* AppDelegate.swift in Sources */,
+				942751E326A6E7C000FE456D /* SceneDelegate.swift in Sources */,
+				942751EB26A6E7C000FE456D /* react_in_native.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		942751F226A6E7C300FE456D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				942751FB26A6E7C300FE456D /* react_in_nativeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		942751FD26A6E7C300FE456D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9427520626A6E7C300FE456D /* react_in_nativeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		942751F826A6E7C300FE456D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 942751DC26A6E7C000FE456D /* react-in-native */;
+			targetProxy = 942751F726A6E7C300FE456D /* PBXContainerItemProxy */;
+		};
+		9427520326A6E7C300FE456D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 942751DC26A6E7C000FE456D /* react-in-native */;
+			targetProxy = 9427520226A6E7C300FE456D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		942751E626A6E7C000FE456D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				942751E726A6E7C000FE456D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		942751EE26A6E7C300FE456D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				942751EF26A6E7C300FE456D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9427520826A6E7C300FE456D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "arm64 ";
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9427520926A6E7C300FE456D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "arm64 ";
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9427520B26A6E7C400FE456D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5EEDA97D04386862AB09C40B /* Pods-react-in-native.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HEJDYB7G5K;
+				INFOPLIST_FILE = "react-in-native/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "practice.react-in-native";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9427520C26A6E7C400FE456D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E9048569843485AF7FF90C43 /* Pods-react-in-native.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HEJDYB7G5K;
+				INFOPLIST_FILE = "react-in-native/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "practice.react-in-native";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9427520E26A6E7C400FE456D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HEJDYB7G5K;
+				INFOPLIST_FILE = "react-in-nativeTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "practice.react-in-nativeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/react-in-native.app/react-in-native";
+			};
+			name = Debug;
+		};
+		9427520F26A6E7C400FE456D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HEJDYB7G5K;
+				INFOPLIST_FILE = "react-in-nativeTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "practice.react-in-nativeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/react-in-native.app/react-in-native";
+			};
+			name = Release;
+		};
+		9427521126A6E7C400FE456D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HEJDYB7G5K;
+				INFOPLIST_FILE = "react-in-nativeUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "practice.react-in-nativeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "react-in-native";
+			};
+			name = Debug;
+		};
+		9427521226A6E7C400FE456D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HEJDYB7G5K;
+				INFOPLIST_FILE = "react-in-nativeUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "practice.react-in-nativeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "react-in-native";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		942751D826A6E7C000FE456D /* Build configuration list for PBXProject "react-in-native" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9427520826A6E7C300FE456D /* Debug */,
+				9427520926A6E7C300FE456D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9427520A26A6E7C400FE456D /* Build configuration list for PBXNativeTarget "react-in-native" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9427520B26A6E7C400FE456D /* Debug */,
+				9427520C26A6E7C400FE456D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9427520D26A6E7C400FE456D /* Build configuration list for PBXNativeTarget "react-in-nativeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9427520E26A6E7C400FE456D /* Debug */,
+				9427520F26A6E7C400FE456D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9427521026A6E7C400FE456D /* Build configuration list for PBXNativeTarget "react-in-nativeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9427521126A6E7C400FE456D /* Debug */,
+				9427521226A6E7C400FE456D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		942751E926A6E7C000FE456D /* react_in_native.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				942751EA26A6E7C000FE456D /* react_in_native.xcdatamodel */,
+			);
+			currentVersion = 942751EA26A6E7C000FE456D /* react_in_native.xcdatamodel */;
+			path = react_in_native.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 942751D526A6E7C000FE456D /* Project object */;
+}
